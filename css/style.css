@@ -1,0 +1,22 @@
+recipe {
+  margin: 1em 0; }
+  recipe recipe-name {
+    display: block;
+    font-size: 2em; }
+  recipe recipe-section {
+    display: block;
+    margin-top: 0.5em 0; }
+  recipe recipe-section-name {
+    display: block;
+    margin: 0.5em 0;
+    font-size: 1.5em; }
+  recipe recipe-ingrediences {
+    display: block; }
+    recipe recipe-ingrediences recipe-ingredience {
+      display: list-item;
+      list-style-type: circle; }
+  recipe recipe-instructions {
+    display: block; }
+    recipe recipe-instructions recipe-instruction {
+      display: list-item;
+      list-style-type: decimal; }
