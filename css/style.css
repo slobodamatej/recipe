@@ -1,4 +1,5 @@
 recipe {
+  display: block;
   margin: 1em 0; }
   recipe recipe-name {
     display: block;
@@ -20,3 +21,11 @@ recipe {
     recipe recipe-instructions recipe-instruction {
       display: list-item;
       list-style-type: decimal; }
+
+@media screen {
+  recipe {
+    height: 100vh; } }
+
+@media print {
+  recipe {
+    page-break-after: always; } }

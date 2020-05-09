@@ -1,5 +1,6 @@
 recipe {
 
+    display: block;
     margin: 1em 0;
 
     recipe-name {
@@ -41,5 +42,20 @@ recipe {
             display: list-item;
             list-style-type: decimal;
         }
+    }
+}
+
+@media screen {
+
+    recipe {
+
+        height: 100vh;
+    }
+}
+
+@media print {
+
+    recipe {    
+        page-break-after: always;
     }
 }
